@@ -1,4 +1,5 @@
 bin/ATFWD-daemon
+bin/akmd8975
 bin/battery_charging
 bin/bridgemgrd
 bin/btld
