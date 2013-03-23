@@ -96,8 +96,8 @@ key 108   DPAD_DOWN         WAKE_DROPPED
 key 106   DPAD_RIGHT        WAKE_DROPPED
 
 # Volume keys
-key 115   VOLUME_UP         WAKE_DROPPED
-key 114   VOLUME_DOWN       WAKE_DROPPED
+key 115   VOLUME_UP         WAKE
+key 114   VOLUME_DOWN       WAKE
 
 key 82    MEDIA_NEXT
 key 79    MEDIA_PREVIOUS
