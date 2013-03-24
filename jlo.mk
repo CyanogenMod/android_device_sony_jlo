@@ -39,6 +39,7 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Configuration scripts
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/config/init.device.rc:root/init.device.rc \
     device/sony/tamsui-common/prebuilt/logo_H.rle:root/logo.rle
 
 # USB function switching
