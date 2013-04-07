@@ -8,7 +8,7 @@ USE_CAMERA_STUB := true
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/jlo/include
 
-TARGET_KERNEL_CONFIG := cyanogen_jlo_defconfig
+TARGET_KERNEL_CONFIG := cm_tamsui_jlo_defconfig
 BOARD_KERNEL_CMDLINE := device/sony/jlo/config/cmdline.txt
 
 # Partition information
