@@ -30,7 +30,7 @@ PRODUCT_PACKAGES := \
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Charging animation resources
-$(call inherit-product, device/sony/tamsui-common-legacy/prebuilt/resources-hdpi.mk)
+$(call inherit-product, device/sony/tamsui-common/prebuilt/resources-hdpi.mk)
 
 # Inherit from jlo device
 $(call inherit-product, device/sony/jlo/jlo.mk)

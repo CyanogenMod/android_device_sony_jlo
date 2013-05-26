@@ -4,7 +4,7 @@ TARGET_USES_LEGACY_BOARD := true
 -include vendor/sony/jlo/BoardConfigVendor.mk
 
 #inherit from the common tamsui definitions
--include device/sony/tamsui-common-legacy/BoardConfigCommon.mk
+-include device/sony/tamsui-common/BoardConfigCommon.mk
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/jlo/include
 
