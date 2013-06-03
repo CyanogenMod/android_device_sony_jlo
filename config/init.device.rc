@@ -6,6 +6,25 @@ on early-boot
     write /sys/class/android_usb/android0/enable 1
     exec /system/bin/battery_charging
 
+    chown root system /sys/class/input/input5/bandwidth
+    chown root system /sys/class/input/input5/debug
+    chown root system /sys/class/input/input5/delay
+    chown root system /sys/class/input/input5/enable
+    chown root system /sys/class/input/input5/interrupt
+    chown root system /sys/class/input/input5/mode
+    chown root system /sys/class/input/input5/range
+    chown root system /sys/class/input/input5/reg
+    chown root system /sys/class/input/input5/sensitivity
+    chown root system /sys/class/input/input5/value
+
+    chown system system /sys/class/compass/akm8975/enable_acc
+    chown system system /sys/class/compass/akm8975/enable_mag
+    chown system system /sys/class/compass/akm8975/enable_ori
+    chown system system /sys/class/compass/akm8975/delay_acc
+    chown system system /sys/class/compass/akm8975/delay_mag
+    chown system system /sys/class/compass/akm8975/delay_ori
+    chown system system /sys/class/compass/akm8975/accel
+
 on post-fs
     #Permission for Lights
     chown system system /sys/class/led/fih_led/control
