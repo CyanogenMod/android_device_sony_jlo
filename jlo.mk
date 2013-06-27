@@ -57,10 +57,10 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
-    device/sony/jlo/prebuilt/rmt_storage:root/sbin/rmt_storage \
-    device/sony/jlo/prebuilt/ta_rmt_service:root/sbin/ta_rmt_service \
-    device/sony/jlo/prebuilt/tad:root/sbin/tad \
-    device/sony/jlo/prebuilt/wait4tad:root/sbin/wait4tad
+    $(LOCAL_PATH)/prebuilt/rmt_storage:root/sbin/rmt_storage \
+    $(LOCAL_PATH)/prebuilt/ta_rmt_service:root/sbin/ta_rmt_service \
+    $(LOCAL_PATH)/prebuilt/tad:root/sbin/tad \
+    $(LOCAL_PATH)/prebuilt/wait4tad:root/sbin/wait4tad
 
 # Key layouts and touchscreen
 PRODUCT_COPY_FILES += \
